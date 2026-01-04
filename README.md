@@ -32,3 +32,63 @@ graph LR
     Gemini -->|Coordinates x,y| Python
     Python -->|Click x,y| CPP
     CPP -->|Mouse Event| OS[Windows OS]
+```
+
+##🛠️ Tech Stack
+Artificial Intelligence: Google Gemini 1.5 Flash (Vision & Spatial Reasoning)
+
+Core Driver: C++ (WinAPI, GDI+, Windows Sockets)
+
+Orchestration: Python 3.10+
+
+Communication: Local TCP Socket Bridge (Port 8080)
+
+##🚀 Installation & Setup
+Prerequisites
+1.Windows 10 or 11
+
+2.G++ Compiler (MinGW)
+
+3.Python 3.8 or higher
+
+4.Google Gemini API Key
+
+1. Compile the Driver (The Hands)
+Open your terminal in the project folder and run:
+
+g++ ghost_driver.cpp -o ghost_driver.exe -lgdi32 -lws2_32 -lgdiplus
+
+2. Install Python Dependencies (The Brain)
+
+pip install google-generativeai pillow
+
+3. Configure API Key
+Open ghost_brain.py in a text editor and paste your Google API Key:
+
+GOOGLE_API_KEY = "YOUR_ACTUAL_API_KEY_HERE"
+
+##🎮 How to Run
+Step 1: Start the Driver
+⚠️ Important: You must run the driver as Administrator so it can control the mouse over system apps.
+
+1.Right-click ghost_driver.exe.
+
+2.Select "Run as Administrator".
+
+You should see: Ghost-01 Listening on Port 8080...
+
+Step 2: Start the Brain
+Open a new terminal window and run:
+
+python ghost_brain.py
+
+Step 3: Command It
+Type natural language commands in the Python window:
+
+1."Open Recycle Bin"
+
+2."Click the Start Button"
+
+3."Click the Chrome icon"
+
+## TEAM codecrew
