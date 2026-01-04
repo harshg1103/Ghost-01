@@ -34,7 +34,7 @@ graph LR
     CPP -->|Mouse Event| OS[Windows OS]
 ```
 
-##🛠️ Tech Stack
+## 🛠️ Tech Stack
 Artificial Intelligence: Google Gemini 1.5 Flash (Vision & Spatial Reasoning)
 
 Core Driver: C++ (WinAPI, GDI+, Windows Sockets)
@@ -43,7 +43,7 @@ Orchestration: Python 3.10+
 
 Communication: Local TCP Socket Bridge (Port 8080)
 
-##🚀 Installation & Setup
+## 🚀 Installation & Setup
 Prerequisites
 
 1.    Windows 10 or 11
@@ -68,7 +68,7 @@ Open ghost_brain.py in a text editor and paste your Google API Key:
 
 GOOGLE_API_KEY = "YOUR_ACTUAL_API_KEY_HERE"
 
-##🎮 How to Run
+## 🎮 How to Run
 Step 1: Start the Driver
 ⚠️ Important: You must run the driver as Administrator so it can control the mouse over system apps.
 
