@@ -45,13 +45,14 @@ Communication: Local TCP Socket Bridge (Port 8080)
 
 ##🚀 Installation & Setup
 Prerequisites
-1.Windows 10 or 11
 
-2.G++ Compiler (MinGW)
+1.    Windows 10 or 11
 
-3.Python 3.8 or higher
+2.    G++ Compiler (MinGW)
 
-4.Google Gemini API Key
+3.    Python 3.8 or higher
+
+4.    Google Gemini API Key
 
 1. Compile the Driver (The Hands)
 Open your terminal in the project folder and run:
